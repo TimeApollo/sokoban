@@ -1,0 +1,24 @@
+.W {
+    background-color: black;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+body {
+    margin: 0px;
+}
+#machoke{
+    position:absolute;
+}
+.O {
+    background-color: green;
+    border-radius: 50%;
+}
+.X.B.O{
+    background-color: red;
+    border-radius: 0%;
+}
+.B {
+    background-color: yellow;
+}
