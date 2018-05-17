@@ -10,6 +10,20 @@ const map = [
     "WWWWWWWW"
   ];
 
+// const map = [
+//     "    WWWWW          ",
+//     "    W   W          ",
+//     "    WB  W          ",
+//     "  WWW  BWW         ",
+//     "  W  B B W         ",
+//     "WWW W WW W   WWWWWW",
+//     "W   W WW WWWWW  OOW",
+//     "W B  B          OOW",
+//     "WWWWW WWW WSWW  OOW",
+//     "    W     WWWWWWWWW",
+//     "    WWWWWWW        "
+//  ]
+
 const main = document.querySelector("main");
 const machoke = document.getElementById("machoke");
 machoke.style.width = 'calc(100vw / ' + map[0].length + ')';
@@ -240,19 +254,20 @@ function movePlayer(event){
     if(Winner){
         const winBox = document.createElement("div");
         const winBoxText = document.createElement("div");
-        winBox.style.backgroundColor = "green";
+        winBox.style.backgroundColor = "Blue";
         winBox.style.margin = "auto";
         winBox.style.color = "white";
         winBox.style.height = "20vh";
-        winBox.style.width = "50vw";
+        winBox.style.width = "30vw";
         winBox.style.textAlign = "center";
         winBox.style.verticalAlign = "middle";
         winBox.style.position = "absolute";
         winBox.style.top = "0px";
-        winBox.style.left = "25vw";
+        winBox.style.left = "35vw";
+        winBox.classList.add("win");
         winBoxText.textContent = "You Win!!!!!!!!!"
         winBoxText.style.position = 'absolute';
-        winBoxText.style.top = '45%';
+        winBoxText.style.top = '15%';
         winBoxText.style.width = '100%';
         winBoxText.style.textAlign = "center";
         winBox.appendChild(winBoxText);

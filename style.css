@@ -1,5 +1,17 @@
+main{
+    background-color: lightblue;
+}
 .W {
-    background-color: black;
+    background-image: url("icerock.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.space{
+    background-color: lightblue;
+}
+.C{
+    background-color: lightblue;
 }
 .row {
     display:flex;
@@ -12,13 +24,30 @@ body {
     position:absolute;
 }
 .O {
-    background-color: green;
+    background-color: blue;
     border-radius: 50%;
+    background-image: url("rarecandy.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .X.B.O{
-    background-color: red;
-    border-radius: 0%;
+    background-image: url("Golem.png");
+    background-color: blue;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .B {
-    background-color: yellow;
+    background-image: url("Geodude.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.win{
+    background-image: url("articuno.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
